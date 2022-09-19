@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from '../../Apis/Axios';
 
+
 function App() {
 
   let [data, setData] = useState(<tr><td colSpan ="3" >...loading</td></tr>);
@@ -35,9 +36,9 @@ function App() {
 
   useEffect(function(){getUserData()}, []);
   return (
-    <div>
-      <table border="1">
-        <thead>
+    <div className="pb-5">
+      <table className="table table-bordered align-middle">
+        <thead className="table-dark">
           <tr>
             <th>Name</th>
             <th>Email</th>

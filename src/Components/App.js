@@ -6,7 +6,7 @@ import Result from './Results/Result'
 function App() {
 
   return (
-    <div>
+    <div className="m-5">
       <Data/>
       <Posts/>
       <Result/>

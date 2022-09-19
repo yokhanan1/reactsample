@@ -36,10 +36,10 @@ function App() {
     
   useEffect(function(){getPostData();}, []);
   return (
-      <div>
+      <div className="pb-5">
       
- <table border="1">
-        <thead>
+ <table className="table table-bordered align-middle">
+        <thead className="table-dark align-middle">
           <tr>
             <th>User Id</th>
             <th>ID</th>
